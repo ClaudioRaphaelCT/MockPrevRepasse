@@ -49,7 +49,7 @@ def get_pagamentos(
             "valorParcelaPaga": 1010,  # Fixo conforme pedido
             "dataHoraPagamentoGuia": "01012026130000",
             "dataHoraInclusaoDataprev": "25022026094129",
-            "dataHoraRepasseIF": "01012026130000",
+            "dataHoraRepasseIF": "15062026130000",
             "numeroGuia": 56,
             "competencia": 202602,
             "nsu": 123
