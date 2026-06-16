@@ -25,8 +25,8 @@ def mapear_pagamento_csv(item):
 # --- ENDPOINT ---
 @app.get("/v1/emprestimos/repasse-pagamentos")
 def get_pagamentos(
-        dataHoraInicio: str = Query("17022024000000"),
-        dataHoraFim: str = Query("17022024000000"),
+        dataHoraInicio: str = Query("25022024130000"),
+        dataHoraFim: str = Query("25022024130000"),
         nroPagina: int = Query(1)
 ):
     # 1. Carrega todos os dados do CSV (ex: as 70 linhas)
