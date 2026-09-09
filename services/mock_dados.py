@@ -28,5 +28,8 @@ def gerar_mock_pagamento():
         "dataHoraRepasseIF": "01012026130000",
         "numeroGuia": 56,
         "competencia": 202602,
-        "nsu": 123
+        "nsu": 123,
+        "cpf":12345612314,
+        "matricula":"Teste Mat 123",
+        "codigoTRF": 333333333333333300
     }
