@@ -19,7 +19,6 @@ def mapear_pagamento_csv(item):
         "numeroGuia": to_int(item.get("numeroGuia")),
         "competencia": to_int(item.get("competencia")),
         "nsu": to_int(item.get("nsu")),
-        "cpf": 12345612314,
         "matricula": "12345678",
         "codigoTRF": 333333333333333300
     }
@@ -56,7 +55,6 @@ def get_pagamentos(
             "numeroGuia": 56,
             "competencia": 202602,
             "nsu": 123,
-            "cpf": 12345612314,
             "matricula": "12345678",
             "codigoTRF": 333333333333333300
         })
