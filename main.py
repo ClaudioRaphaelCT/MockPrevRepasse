@@ -52,7 +52,10 @@ def get_pagamentos(
             "dataHoraRepasseIF": "15062026100000",
             "numeroGuia": 56,
             "competencia": 202602,
-            "nsu": 123
+            "nsu": 123,
+            "cpf": 12345612314,
+            "matricula": "Teste Mat 123",
+            "codigoTRF": 333333333333333300
         })
 
     # 4. Junta tudo em uma lista mestre
