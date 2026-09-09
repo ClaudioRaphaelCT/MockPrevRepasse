@@ -19,9 +19,9 @@ def mapear_pagamento_csv(item):
         "numeroGuia": to_int(item.get("numeroGuia")),
         "competencia": to_int(item.get("competencia")),
         "nsu": to_int(item.get("nsu")),
-        "cpf": to_int(item.get("cpf")),
-        "matricula": str(item.get("matricula", "")).strip(),
-        "codigoTRF": to_int(item.get("codigoTRF"))
+        "cpf": 12345612314,
+        "matricula": "Teste Mat 123",
+        "codigoTRF": 333333333333333300
     }
 
 
