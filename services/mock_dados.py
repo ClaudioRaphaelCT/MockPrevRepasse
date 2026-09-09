@@ -13,7 +13,10 @@ def mapear_pagamento_csv(item):
         "dataHoraRepasseIF": str(item.get("dataHoraRepasseIF", "")).strip(),
         "numeroGuia": to_int(item.get("numeroGuia")),
         "competencia": to_int(item.get("competencia")),
-        "nsu": to_int(item.get("nsu"))
+        "nsu": to_int(item.get("nsu")),
+        "cpf": to_int(item.get("cpf")),
+        "matricula": str(item.get("matricula", "")).strip(),
+        "codigoTRF": to_int(item.get("codigoTRF"))
     }
 
 def gerar_mock_pagamento():
