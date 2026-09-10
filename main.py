@@ -20,7 +20,8 @@ def mapear_pagamento_csv(item):
         "competencia": to_int(item.get("competencia")),
         "nsu": to_int(item.get("nsu")),
         "cpf": 12345612314,
-        "matricula": "123458"
+        "matricula": "123458",
+        "codigoTRF": 333333333333333300
     }
 
 
@@ -56,7 +57,8 @@ def get_pagamentos(
             "competencia": 202602,
             "nsu": 123,
             "cpf": 12345612314,
-            "matricula": "123458"
+            "matricula": "12345678",
+            "codigoTRF": 333333333333333300
         })
 
     # 4. Junta tudo em uma lista mestre
