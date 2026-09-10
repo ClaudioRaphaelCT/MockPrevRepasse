@@ -56,7 +56,7 @@ def get_pagamentos(
             "competencia": 202602,
             "nsu": 123,
             "cpf": 12345612314,
-            "matricula": "Teste Mat 123"
+            "matricula": "123458"
         })
 
     # 4. Junta tudo em uma lista mestre
