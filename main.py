@@ -54,7 +54,7 @@ def get_pagamentos(
             "dataHoraInclusaoDataprev": "25022026094129",
             "dataHoraRepasseIF": "15062026100000",
             "numeroGuia": 56,
-            "competencia": 202602,
+            "competencia": 202703,
             "nsu": 123,
             "cpf": 12345612314,
             "matricula": "12345678",
